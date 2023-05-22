@@ -1,9 +1,7 @@
-#  still look for a txt file for word list so many words can be imported
 import random
 import string
 
 # a word list or text file containing words can be used in place of the small word_lst i used to test
-
 # the code commented below is just a sample txt file i used ..in same project directory
 ''' word_lst = []
 with open('play_words.txt') as fl:
@@ -15,7 +13,7 @@ word_lst = ['sleek', 'fisher', 'glare', 'ceder', 'monopoly']
 
 
 
-#  rename this function to taste later on
+#  rename this function as you wish .. just call the proper name below 
 def hangman():
     word = random.choice(word_lst).upper()
     word_letters = set(word)  # this is just to remove duplicates
